@@ -1,4 +1,5 @@
-const canvas = document.querySelector('canvas'); // Selecting the first canvas element in HTML file
+// Selecting the first canvas element in HTML file
+const canvas = document.querySelector('canvas');
 
 // Setting the size of the canvas to match the window size
 canvas.width = window.innerWidth;
@@ -9,6 +10,15 @@ const c = canvas.getContext('2d');
 
 // Circle Array to store different circle variable
 let circleArray = [];
+
+// Color array
+let colorArray = [
+    '#3a0ca3',
+    '#3f37c9',
+    '#4361ee',
+    '#4895ef',
+    '#4cc9f0'
+]
 
 // Circle Object
 function Circle(x, y, dx, dy, radius, color) {
@@ -48,7 +58,7 @@ function Circle(x, y, dx, dy, radius, color) {
     }
 }
 
-// Make 10 circles
+// Create circles
 for (let i = 0; i < 100; i++) {
     // Declaring variable
     let radius = 50; // Set radius
@@ -56,7 +66,7 @@ for (let i = 0; i < 100; i++) {
     let y = Math.random() * (innerHeight - radius * 2) + radius; // Set y coordinate
     let dx = Math.floor((Math.random() - 0.5) * 100) / 10; // Set x velocity
     let dy = Math.floor((Math.random() - 0.5) * 100) / 10; // Set y velocity
-    let color = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`; // Set random color
+    let color = colorArray[Math.floor(Math.random() * (colorArray.length + 1))]; // Set random color in colorArray
 
     circleArray.push(new Circle(x, y, dx, dy, radius, color));
 }
