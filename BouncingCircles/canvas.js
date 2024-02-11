@@ -11,19 +11,22 @@ const c = canvas.getContext('2d');
 let circleArray = [];
 
 // Circle Object
-function Circle(x, y, dx, dy, radius) {
+function Circle(x, y, dx, dy, radius, color) {
     this.x = x;
     this.y = y;
     this.dx = dx;
     this.dy = dy;
     this.radius = radius;
+    this.color = color;
     
     this.draw = function() {
         // Drawing a circle
         c.beginPath();
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true);
-        c.strokeStyle = 'red';
+        c.strokeStyle = this.color;
+        c.fillStyle = this.color;
         c.stroke();
+        c.fill()
     }
 
     this.update = function() {
@@ -53,8 +56,9 @@ for (let i = 0; i < 100; i++) {
     let y = Math.random() * (innerHeight - radius * 2) + radius; // Set y coordinate
     let dx = Math.floor((Math.random() - 0.5) * 100) / 10; // Set x velocity
     let dy = Math.floor((Math.random() - 0.5) * 100) / 10; // Set y velocity
+    let color = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`; // Set random color
 
-    circleArray.push(new Circle(x, y, dx, dy, radius));
+    circleArray.push(new Circle(x, y, dx, dy, radius, color));
 }
 
 // Animate function
