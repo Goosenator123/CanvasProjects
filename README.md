@@ -25,10 +25,14 @@ Feel free to explore, fork, or clone this repository to kickstart your journey i
 
 ## Projects:
 
+### [BasicDrawing](./BasicDrawing/)
+
+BasicDrawing provides fundamental code examples for drawing shapes and elements on an HTML5 canvas.
+
 ### [BouncingCircles](./BouncingCircles/)
 
 BouncingCircles is a simple canvas project featuring colorful circles bouncing around the window's edges against a black background.
 
-### [BasicDrawing](./BasicDrawing/)
+### [InteractiveBouncingCircles](./InteractiveBouncingCircles/)
 
-BasicDrawing provides fundamental code examples for drawing shapes and elements on an HTML5 canvas.
+InteractiveBouncingCircles is a dynamic web page featuring bouncing circles that respond to user cursor movements. The circles grow in size as the user moves the cursor closer, creating an interactive visual experience.
