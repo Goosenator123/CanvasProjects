@@ -40,3 +40,7 @@ InteractiveBouncingCircles is a dynamic web page featuring bouncing circles that
 ### [GravityCircles](./GravityCircles/)
 
 GravityCircles presents an immersive canvas experience showcasing balls cascading and rebounding across the screen upon contact with the canvas's bottom edge. The simulation resets upon user click or screen resize to ensure smooth animation and prevent any visual clipping.
+
+### [StaticCollision](./StaticCollision/)
+
+StaticCollision displays several unmoving circles on a black canvas without any overlap. A smaller circle tracks the user's mouse, changing color when it touches any of the static circles.
