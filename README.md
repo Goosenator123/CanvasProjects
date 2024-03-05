@@ -36,3 +36,7 @@ BouncingCircles is a simple canvas project featuring colorful circles bouncing a
 ### [InteractiveBouncingCircles](./InteractiveBouncingCircles/)
 
 InteractiveBouncingCircles is a dynamic web page featuring bouncing circles that respond to user cursor movements. The circles grow in size as the user moves the cursor closer, creating an interactive visual experience.
+
+### [GravityCircles](./GravityCircles/)
+
+GravityCircles presents an immersive canvas experience showcasing balls cascading and rebounding across the screen upon contact with the canvas's bottom edge. The simulation resets upon user click or screen resize to ensure smooth animation and prevent any visual clipping.
