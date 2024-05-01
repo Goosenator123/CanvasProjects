@@ -1,4 +1,4 @@
-# CanvasTutorial
+# CanvasProjects
 
 ## Table of Contents
 
@@ -9,7 +9,7 @@
 
 ## Overview
 
-CanvasTutorial is a personal repository dedicated to exploring and mastering the capabilities of the HTML Canvas element. It serves as a playground for experiments, examples, and projects that showcase various features of canvas-based graphics and interactive elements.
+CanvasProjects is a personal repository dedicated to exploring and mastering the capabilities of the HTML Canvas element. It serves as a playground for experiments, examples, and projects that showcase various features of canvas-based graphics and interactive elements.
 
 ## Key Features:
 
