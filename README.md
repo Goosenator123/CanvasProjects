@@ -48,3 +48,7 @@ StaticCollision displays several unmoving circles on a black canvas without any 
 ### [CircularMotion](./CircularMotion/)
 
 CircularMotion features dynamically drawn lines that orbit around the user's cursor, creating an engaging circular motion effect. The lines gracefully follow the cursor's movement, enhancing the interactive experience.
+
+### [RealisticFireworks](./RealisticFireworks/)
+
+Content in progress
