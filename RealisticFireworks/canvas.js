@@ -82,7 +82,6 @@ function init() {
     animate(); // Start animation
 }
 
-// Animation Loop
 function animate() {
     requestAnimationFrame(animate); // Loop animation
     clearScreen(); // Clear screen
@@ -96,7 +95,6 @@ function animate() {
         }
     });
 }
-
 // Event listeners
 window.addEventListener('resize', () => {
     setCanvasSize(); // Resize
