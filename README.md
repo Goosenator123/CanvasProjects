@@ -51,4 +51,4 @@ CircularMotion features dynamically drawn lines that orbit around the user's cur
 
 ### [RealisticFireworks](./RealisticFireworks/)
 
-Content in progress
+RealisticFireworks emulates the captivating spread of particles during a fireworks display, triggered by user clicks. Witness the beauty of colorful bursts gracefully dissipating over time, creating a mesmerizing visual spectacle.
