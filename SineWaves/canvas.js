@@ -1,9 +1,3 @@
-// Import Dat.gui
-// const dat = require('dat.gui');
-import dat from 'dat.gui';
-
-const gui = new dat.GUI();
-
 // Selecting the first canvas element in HTML file
 const canvas = document.querySelector('canvas');
 
