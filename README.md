@@ -52,3 +52,7 @@ CircularMotion features dynamically drawn lines that orbit around the user's cur
 ### [RealisticFireworks](./RealisticFireworks/)
 
 RealisticFireworks emulates the captivating spread of particles during a fireworks display, triggered by user clicks. Witness the beauty of colorful bursts gracefully dissipating over time, creating a mesmerizing visual spectacle.
+
+### [SineWaves](./SineWaves/)
+
+SineWaves offers a mesmerizing display of fluid motion as a sine wave gracefully traverses the screen. The wave, powered by `Math.sin()`, evolves gradually, accompanied by a subtle shift in color, creating an immersive visual experience.
